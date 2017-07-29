@@ -1,0 +1,71 @@
+
+.container-main {
+  background-color: #e0e0e0;
+  min-width: 800px;
+  min-height: 200px;
+  border-radius: 15px;
+  border: 2px solid #3b0084;
+  box-shadow: 0px 0px 4px 2px grey;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.container-row {
+  background-color: #f4f4f4;
+  text-align: left;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 75px;
+  transition: all 1s ease;
+
+}
+
+.container-row:hover {
+  box-shadow: 0px 0px 9px 5px #cccccc;
+  background-color: #d6c0db;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  background-color: #e0e0e0;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.stream-name {
+
+}
+
+.info {
+  display: inline-block;
+  line-height: normal;
+  margin: 0px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.preview {
+  align: right;
+  margin: 20px;
+  margin-left: 160px;
+  text-align: center;
+}
+
+.preview-text {
+
+}

@@ -1,0 +1,37 @@
+body {
+  background-color: #0a0f0c;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.container-box {
+  background: #32a358;
+  border-radius: 25px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0px 0px 15px 3px #2f7748
+}
+
+#get-weather2 {
+  font-size: 12px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
+
+.temp-unit {
+  text-align: right;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tiny {
+  font-size: 8px;
+}

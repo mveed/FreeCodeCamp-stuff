@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App - Matt Veeder</title>
+  <link rel="stylesheet" href="weather_app.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="weather_app.js"></script>
+  <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,900" rel="stylesheet">
+</head>
+<body>
+  <div class="container-box">
+    <div id="location">
+    </div>
+    <br />
+    <div id="curr">Currently:
+    </div>
+    <div id="summary">
+    </div>
+    <figure id="figure-icon">
+<canvas id="weather-icon" width="96" height="96"></canvas>
+    </figure>
+    <div id="temperature">
+    </div>
+    <div id="temp-static">
+    </div>
+    <div id="get-weather2">Wait - Retrieving Location...</div>
+    <div class="temp-unit" id="convertUnit"><div class="tiny">CONVERT</div>&deg;F/C</div>
+  </div>
+  <br />
+  <br />
+  <br />
+  Powered by: <a href="https://darksky.net/poweredby/">https://darksky.net/poweredby/</a>
+</body>
+</html>
