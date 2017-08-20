@@ -6,4 +6,82 @@
   <title>Pomodoro Clock for FCC - By Matt Veeder</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="basic_p_clock.css">
+
 </head>
+
+<body>
+  <div class="container-clock">
+    <div class="container-header">
+      <h1>POMODORO CLOCK</h1>
+    </div>
+    <br />
+    <div class="container-adjust">
+      <div class="adjust-column">
+              Focus:
+              <br />
+    <div class="pos-neg" id="focus-minus">
+      -
+    </div>
+    <div class="adjust-time inline" id="adjust-time-focus">
+      25
+    </div>
+    <div class="pos-neg" id="focus-plus">
+      +
+    </div>
+  </div>
+  <div class="adjust-column">
+          Break:
+          <br />
+    <div class="pos-neg" id="break-minus">
+      -
+    </div>
+    <div class="adjust-time inline" id="adjust-time-break">
+      5
+    </div>
+    <div class="pos-neg" id="break-plus">
+      +
+    </div>
+  </div>
+  </div>
+    <div class="current-time">
+      <div class="inline" id="current-mins">25:</div><div class="inline" id="current-secs">00</div>
+    </div>
+    <div class="circle">
+      <div class="mode" id="mode">
+        <h1>FOCUS</h1>
+      </div>
+        <div class="ticks tick-large">
+        </div>
+        <div class="ticks">
+        </div>
+        <div class="ticks tick-large">
+        </div>
+        <div class="ticks">
+        </div>
+        <div class="ticks tick-large">
+        </div>
+        <div class="ticks">
+        </div>
+        <div class="ticks tick-large">
+        </div>
+        <div class="ticks">
+        </div>
+        <div class="ticks tick-large">
+        </div>
+        <div class="triangle" id="ticker">
+        </div>
+    </div>
+    <div class="reset" id="pause">
+      <h>START</h>
+    </div>
+    <br />
+    <div class="reset" id="restart-focus">
+      RESTART FOCUS
+    </div>
+    <div class="reset" id="restart-break">
+      RESTART BREAK
+    </div>
+  </div>
+</body>
+  <script src="script_p_clock.js"></script>
+</html>
