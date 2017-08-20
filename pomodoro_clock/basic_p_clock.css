@@ -1,0 +1,89 @@
+html {
+  background-color: #db4832;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.container-clock {
+  margin: auto;
+  margin-top: 15px;
+}
+
+.current-time {
+  padding: 25px;
+  font-size: 70px;
+}
+
+.inline {
+  display: inline;
+}
+
+.adjust-column {
+  display: inline-block;
+  margin: 15px 40px 15px 40px;
+  font-size: 24px;
+}
+
+.pos-neg {
+  font-weight: 900;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 100%;
+  margin: auto;
+  line-height: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.mode {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 75px;
+  line-height: 25px;
+}
+
+.ticks {
+  display: inline-block;
+  background-color: white;
+  width: 3px;
+  height: 8px;
+  margin: 9px;
+  vertical-align: middle;
+}
+
+.tick-large {
+  height: 14px;
+  margin-top: 2px;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  position: absolute;
+  top: 55%;
+  right: 13px; /* 217px is aligned with left tick */
+}
+
+.reset {
+  cursor: pointer;
+  padding: 25px;
+  display: inline-block;
+}
