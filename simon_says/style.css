@@ -1,0 +1,51 @@
+html {
+  background-color: #161616;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.current-score {
+  font-weight: bold;
+}
+
+.game-button {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 150px;
+  box-shadow: 0px 0px 4px 2px grey;
+  cursor: pointer;
+}
+
+.game-button:active {
+  opacity: 0.5;
+}
+
+.green {
+  background-color: #42f44b;
+}
+
+.blue {
+  background-color: teal;
+}
+
+.red {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: #ac41f4;
+}
+
+.button-active {
+    opacity: 0.5;
+}
+
+.start-button {
+  cursor: pointer;
+  font-weight: bold;
+}

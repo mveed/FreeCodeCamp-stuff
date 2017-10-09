@@ -1,0 +1,46 @@
+html {
+  background-color: #dddddd
+}
+
+.container-board {
+  margin: auto;
+  width: 308px;
+  height: 308px;
+  font-size: 0px;
+}
+
+.square {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.square1 {
+  border-right: 4px solid black;
+}
+
+.square3 {
+  border-left: 4px solid black;
+}
+
+.square4 {
+  border: 4px solid black;
+  border-left: 0px;
+}
+
+.square5 {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.square6 {
+  border: 4px solid black;
+  border-right: 0px;
+}
+
+.square7 {
+  border-right: 4px solid black;
+}
+
+.square9{
+  border-left: 4px solid black;
+}
