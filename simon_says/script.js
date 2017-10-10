@@ -8,6 +8,7 @@ $(document).ready(function() {
 
 function startGame() {
   console.log("restart");
+  $(".current-score").text("--");
   var currentPattern = [];
   compTurn(currentPattern);
 }

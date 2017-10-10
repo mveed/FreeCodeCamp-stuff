@@ -16,6 +16,7 @@ html {
   background-color: black;
   display: inline-block;
   margin: 10px;
+  border: 2px solid white;
   border-radius: 150px;
   box-shadow: 0px 0px 4px 2px grey;
   cursor: pointer;
